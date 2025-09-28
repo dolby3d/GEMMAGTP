@@ -10502,3 +10502,1195 @@ Network: ↑    2.2KB ↓    0.6KB
 FPS:    1.0
 Temp: N/A
 ------------------------------------------------------------
+Time: 00:14:31
+CPU Usage:   0.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑662935.5KB ↓12817494.0KB
+FPS:   91.0
+Temp: N/A
+------------------------------
+Time: 00:14:32
+CPU Usage:   8.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:33
+CPU Usage:   8.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:14:34
+CPU Usage:   7.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:35
+CPU Usage:   6.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:36
+CPU Usage:   9.2%
+RAM Usage:  49.6%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:37
+CPU Usage:   8.1%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:38
+CPU Usage:  12.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:39
+CPU Usage:  13.0%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    7.4KB ↓    1.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:40
+CPU Usage:   5.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:41
+CPU Usage:   9.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    7.6KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:42
+CPU Usage:   6.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:43
+CPU Usage:   6.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    2.0KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:44
+CPU Usage:   8.9%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:46
+CPU Usage:   4.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:47
+CPU Usage:  11.1%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    8.9KB ↓    6.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:48
+CPU Usage:   7.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    2.7KB ↓    0.3KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:49
+CPU Usage:  11.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:50
+CPU Usage:  10.3%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:51
+CPU Usage:   6.3%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:52
+CPU Usage:  12.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    8.9KB ↓    1.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:53
+CPU Usage:   4.4%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:54
+CPU Usage:   7.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:55
+CPU Usage:  10.3%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:14:56
+CPU Usage:   8.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:14:57
+CPU Usage:  12.4%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    7.7KB ↓    6.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:58
+CPU Usage:   5.3%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:14:59
+CPU Usage:   4.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    0.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:00
+CPU Usage:   9.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:03
+CPU Usage:  13.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    4.4KB ↓    6.6KB
+FPS:    0.3
+Temp: N/A
+------------------------------
+Time: 00:15:04
+CPU Usage:  13.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    5.4KB ↓    4.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:05
+CPU Usage:  20.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.8KB ↓    5.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:06
+CPU Usage:  11.4%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑   16.0KB ↓    1.3KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:07
+CPU Usage:  10.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑   14.0KB ↓    1.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:08
+CPU Usage:  48.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:09
+CPU Usage:  22.3%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑   14.1KB ↓    0.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:10
+CPU Usage:  24.3%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑   15.0KB ↓    5.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:11
+CPU Usage:  29.9%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    0.4KB ↓    1.5KB
+FPS:    0.8
+Temp: N/A
+------------------------------
+Time: 00:15:12
+CPU Usage:  32.0%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    0.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:13
+CPU Usage:  20.4%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    2.0KB ↓    2.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:14
+CPU Usage:  14.2%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    0.4KB ↓    1.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:15
+CPU Usage:  16.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:17
+CPU Usage:  17.5%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:18
+CPU Usage:  15.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:19
+CPU Usage:  19.2%
+RAM Usage:  49.8%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:20
+CPU Usage:  15.9%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:21
+CPU Usage:  13.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:22
+CPU Usage:  21.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑   43.9KB ↓    4.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:23
+CPU Usage:   7.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓   16.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:24
+CPU Usage:   6.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    1.9KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:25
+CPU Usage:   6.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:26
+CPU Usage:  10.8%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:27
+CPU Usage:   8.1%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    5.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:28
+CPU Usage:   7.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:15:29
+CPU Usage:   6.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:30
+CPU Usage:   7.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:31
+CPU Usage:   8.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    1.3KB ↓    0.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:32
+CPU Usage:   7.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:33
+CPU Usage:  11.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:34
+CPU Usage:   5.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.3KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:35
+CPU Usage:   6.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:36
+CPU Usage:  15.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:37
+CPU Usage:  12.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    7.0KB ↓    0.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:38
+CPU Usage:  11.7%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:39
+CPU Usage:   9.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:40
+CPU Usage:  11.2%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:41
+CPU Usage:   8.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:42
+CPU Usage:  11.5%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:44
+CPU Usage:   8.6%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:45
+CPU Usage:  10.0%
+RAM Usage:  49.7%
+Disk Usage:   8.3%
+Network: ↑   24.1KB ↓    6.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:46
+CPU Usage:  20.9%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑   40.2KB ↓ 2249.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:47
+CPU Usage:   7.9%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    4.3KB ↓    0.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:48
+CPU Usage:   6.6%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:49
+CPU Usage:  12.1%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑   14.8KB ↓  798.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:50
+CPU Usage:  16.6%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:51
+CPU Usage:  11.3%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:52
+CPU Usage:  18.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   28.8KB ↓  699.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:53
+CPU Usage:  17.7%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    5.0KB ↓  735.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:54
+CPU Usage:  18.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.4KB ↓    0.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:55
+CPU Usage:   9.0%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   11.9KB ↓    7.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:56
+CPU Usage:   8.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    7.1KB ↓    2.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:57
+CPU Usage:   8.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    5.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:58
+CPU Usage:  11.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:15:59
+CPU Usage:   9.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:00
+CPU Usage:   9.0%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   20.7KB ↓ 1552.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:01
+CPU Usage:   9.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    1.1KB ↓    0.2KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:02
+CPU Usage:  12.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:03
+CPU Usage:  12.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:04
+CPU Usage:  11.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:05
+CPU Usage:  17.8%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   12.1KB ↓ 1418.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:06
+CPU Usage:  14.0%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    7.4KB ↓    1.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:07
+CPU Usage:   9.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:08
+CPU Usage:  10.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:09
+CPU Usage:   7.2%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:10
+CPU Usage:  10.9%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:12
+CPU Usage:   9.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   12.8KB ↓ 1395.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:13
+CPU Usage:  13.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:14
+CPU Usage:   7.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:15
+CPU Usage:  11.5%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:16
+CPU Usage:  12.6%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:17
+CPU Usage:  10.7%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    2.9KB ↓   45.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:18
+CPU Usage:   9.5%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   17.2KB ↓ 1324.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:19
+CPU Usage:   7.9%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    2.4KB ↓    0.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:20
+CPU Usage:   9.8%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:21
+CPU Usage:   7.1%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:22
+CPU Usage:   8.0%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:23
+CPU Usage:  11.2%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑   19.4KB ↓ 1129.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:24
+CPU Usage:   8.1%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    2.2KB ↓  311.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:25
+CPU Usage:   7.0%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    1.4KB ↓    0.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:26
+CPU Usage:   8.3%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑   10.7KB ↓    1.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:27
+CPU Usage:  40.8%
+RAM Usage:  48.9%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    5.2KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:28
+CPU Usage:  25.7%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   12.5KB ↓    0.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:29
+CPU Usage:  29.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   19.6KB ↓ 1389.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:30
+CPU Usage:  18.8%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    7.5KB ↓    1.5KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:31
+CPU Usage:  17.9%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:32
+CPU Usage:  15.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:33
+CPU Usage:  17.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   10.0KB ↓    2.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:34
+CPU Usage:  51.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   13.6KB ↓ 1555.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:35
+CPU Usage:  17.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:36
+CPU Usage:  18.7%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:37
+CPU Usage:  15.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:38
+CPU Usage:  18.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:40
+CPU Usage:  15.9%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    0.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:41
+CPU Usage:  17.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.4KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:42
+CPU Usage:  17.2%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    9.3KB ↓  915.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:43
+CPU Usage:  18.5%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    3.8KB ↓  514.9KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:44
+CPU Usage:  16.5%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:45
+CPU Usage:  15.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:46
+CPU Usage:  18.8%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:47
+CPU Usage:  18.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   12.4KB ↓ 1418.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:48
+CPU Usage:  19.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.3KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:49
+CPU Usage:  18.8%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    3.3KB ↓    1.6KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:50
+CPU Usage:  17.4%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:51
+CPU Usage:  18.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.7KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:52
+CPU Usage:  38.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.7KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:16:53
+CPU Usage:  12.7%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    2.9KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:54
+CPU Usage:  17.4%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑   16.7KB ↓ 1379.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:55
+CPU Usage:  17.9%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑   37.8KB ↓   18.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:56
+CPU Usage:  15.0%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    5.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:57
+CPU Usage:  13.6%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    6.8KB ↓    0.7KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:58
+CPU Usage:  18.6%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑   27.9KB ↓ 1418.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:16:59
+CPU Usage:   7.9%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    1.4KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:00
+CPU Usage:  13.6%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:02
+CPU Usage:   8.1%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.2KB ↓    0.0KB
+FPS:    0.9
+Temp: N/A
+------------------------------
+Time: 00:17:03
+CPU Usage:  13.7%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    0.1KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:04
+CPU Usage:   7.0%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:05
+CPU Usage:   7.7%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.0KB ↓    0.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:06
+CPU Usage:  10.0%
+RAM Usage:  49.1%
+Disk Usage:   8.3%
+Network: ↑   19.6KB ↓ 1557.8KB
+FPS:    1.0
+Temp: N/A
+------------------------------
+Time: 00:17:07
+CPU Usage:   8.3%
+RAM Usage:  49.0%
+Disk Usage:   8.3%
+Network: ↑    0.1KB ↓    1.0KB
+FPS:    1.0
+Temp: N/A
+------------------------------
