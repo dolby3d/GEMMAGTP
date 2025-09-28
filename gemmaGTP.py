@@ -1,4 +1,6 @@
-﻿def run_monitoring():
+﻿#git add .; git commit -m "gemma01"; git push
+
+def run_monitoring():
     prev_net = None
     fps_start = time.time()
     frame_count = 0
