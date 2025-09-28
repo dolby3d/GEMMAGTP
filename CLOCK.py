@@ -1,67 +1,68 @@
-﻿import time, psutil, random, os
+﻿import time
+import psutil
+import os
+import subprocess
 
-# --- SETTINGS ---
-lines_per_frame = 15
-chars_per_line = 60
-feed_lines = 5
-frames = 1000  # run for 1000 updates
-hearts = ["♥","<3"]
-story_lines = [
-    "Live ASCII Dashboard",
-    "Monitoring CPU, RAM, Network",
-    "The heart pulses with system life"
-]
+# --- Configuration ---
+repo_path = "C:/path/to/your/repo"  # Change this to your local repo path
+branch = "main"
 
-# --- HELPERS ---
-def bar(val, width=20):
-    filled = int(width*min(val,100)/100)
-    return '█'*filled + '.'*(width-filled)
+# --- Logging function ---
+def log_system(filename):
+    prev_net = (0, 0)
+    prev_time = time.time()
+    with open(filename, "a") as f:
+        try:
+            while True:
+                # Collect system metrics
+                cpu = psutil.cpu_percent()
+                mem = psutil.virtual_memory().percent
+                disk = psutil.disk_usage('/').percent
+                net = psutil.net_io_counters()
+                sent = (net.bytes_sent - prev_net[0]) / 1024
+                recv = (net.bytes_recv - prev_net[1]) / 1024
+                prev_net = (net.bytes_sent, net.bytes_recv)
+                fps = 1 / (time.time() - prev_time)
+                prev_time = time.time()
+                
+                # Build output
+                output = [
+                    f"Time: {time.strftime('%H:%M:%S')}",
+                    f"CPU Usage: {cpu}%",
+                    f"RAM Usage: {mem}%",
+                    f"Disk Usage: {disk}%",
+                    f"Network: ↑{sent:.1f}KB ↓{recv:.1f}KB",
+                    f"FPS: {fps:.1f}",
+                ]
+                
+                # Print to terminal
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("\n".join(output))
+                
+                # Save to file
+                f.write("\n".join(output) + "\n" + "-"*40 + "\n")
+                
+                # Wait 1 second
+                time.sleep(1)
+                
+                # Commit & push every 60 seconds
+                if int(time.time()) % 60 == 0:
+                    push_to_github(filename)
+                    
+        except KeyboardInterrupt:
+            print("Monitoring stopped.")
 
-def generate_feed_line():
-    cpu=psutil.cpu_percent()
-    ram=psutil.virtual_memory().percent
-    net=psutil.net_io_counters()
-    net_usage=min((net.bytes_sent+net.bytes_recv)/1024/50*100,100)
-    events=["OK","WARN","ERROR","CONNECT","DISCONNECT","UPDATE","IDLE"]
-    event=random.choice(events)
-    line=f"C:{cpu:02.0f}% R:{ram:02.0f}% N:{net_usage:02.0f}% {event}"
-    if len(line)<chars_per_line: line+=" "*(chars_per_line-len(line))
-    return line
+# --- Git push function ---
+def push_to_github(filename):
+    try:
+        subprocess.run(["git", "-C", repo_path, "add", filename], check=True)
+        subprocess.run(["git", "-C", repo_path, "commit", "-m", f"Update {filename}"], check=True)
+        subprocess.run(["git", "-C", repo_path, "push", "origin", branch], check=True)
+        print(f"Pushed {filename} to GitHub!")
+    except subprocess.CalledProcessError:
+        print("Git push failed. Check your repository or network.")
 
-def generate_ascii_frame():
-    now=time.localtime()
-    clock=f"{now.tm_hour:02d}:{now.tm_min:02d}:{now.tm_sec:02d}"
-    pulse=(int(time.time()*2)%2)
-    heart=hearts[pulse]
-
-    lines=[f"Clock: {clock} | Heart: {heart}"]
-    cpu=psutil.cpu_percent()
-    ram=psutil.virtual_memory().percent
-    net=psutil.net_io_counters()
-    net_usage=min((net.bytes_sent+net.bytes_recv)/1024/50*100,100)
-    lines.append(f"C:{bar(cpu)} R:{bar(ram)} N:{bar(net_usage)}")
-
-    # Story lines
-    for r in range(2, lines_per_frame-feed_lines):
-        story_idx=r-2
-        if story_idx<len(story_lines):
-            line=story_lines[story_idx]
-            scroll_len=len(line)+chars_per_line
-            offset=int(time.time())%scroll_len
-            display=(" "*chars_per_line+line)[offset:offset+chars_per_line]
-            flicker=[c if random.random()>0.05 else " " for c in display]
-            lines.append("".join(flicker))
-        else:
-            lines.append(" "*chars_per_line)
-
-    # Bottom live feed
-    for _ in range(feed_lines):
-        lines.append(generate_feed_line())
-
-    return "\n".join(lines)
-
-# --- MAIN LOOP ---
-for frame_idx in range(frames):
-    os.system('cls' if os.name=='nt' else 'clear')
-    print(generate_ascii_frame())
-    time.sleep(0.2)  # adjust refresh rate
+# --- Main ---
+if __name__ == "__main__":
+    log_filename = f"system_log_{time.strftime('%Y-%m-%d')}.txt"
+    log_system(log_filename)
