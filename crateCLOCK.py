@@ -1,15 +1,14 @@
 ﻿import time, psutil, random
+from PIL import Image, ImageDraw, ImageFont
 
 # --- SETTINGS ---
-fps_target = 30
-frame_interval = (1/fps_target) * 1.33  # 1/3 slower
-frames = 0
-start = time.time()
-net_start = psutil.net_io_counters()
-
-cpu = ram = swap = net_usage = sent = recv = 0
-last_update = start
-fps_smooth = 0.0
+num_frames = 100           # total frames for GIF
+frame_width_px = 800
+frame_height_px = 400
+font_size = 15
+lines_per_frame = 20
+chars_per_line = 80
+frame_duration_ms = 100
 
 hearts = ["♥","<3"]
 story_lines = [
@@ -25,77 +24,71 @@ story_lines = [
     "and slowed when everything was calm."
 ]
 
-# --- HELPERS ---
+# --- HELPER FUNCTIONS ---
 def bar(val,width=20):
     filled = int(width*min(val,100)/100)
     return '█'*filled + '.'*(width-filled)
 
-def smooth_clock():
-    t = time.localtime()
-    sec = time.time() % 60
-    return f"{t.tm_hour:02d}:{t.tm_min:02d}:{int(sec):02d}.{int((sec-int(sec))*10)}"
-
-def format_line(text, width=80):
-    return text[:width].ljust(width)
-
-# --- MAIN LOOP ---
-try:
-    while True:
-        now = time.time()
-        # Update heavy stats every 1s
-        if now - last_update >= 1.0:
-            last_update = now
-            cpu = psutil.cpu_percent()
-            ram = psutil.virtual_memory().percent
-            swap = psutil.swap_memory().percent
-            net = psutil.net_io_counters()
-            sent = (net.bytes_sent - net_start.bytes_sent)/1024
-            recv = (net.bytes_recv - net_start.bytes_recv)/1024
-            net_start = net
-            net_usage = min((sent+recv)/50*100,100)
-
-        # Smooth heart pulse
-        pulse = (frames % fps_target)/fps_target
-        heart = hearts[0] if pulse < 0.5 else hearts[1]
-
-        # Smooth clock
-        clock = smooth_clock()
-
-        # Smoothed FPS
-        elapsed = now - start
-        raw_fps = frames/elapsed if elapsed>0 else 0
-        fps_smooth = fps_smooth*0.8 + raw_fps*0.2
-
-        # Clear screen
-        print("\033[2J\033[H", end='')
-
-        # Build 20-line frame
-        for r in range(20):
-            if r == 0:
-                # Top line: clock + heart + FPS
-                print(format_line(f"Clock: {clock} | Heart: {heart} | FPS: {fps_smooth:.1f}"))
-            elif r == 1:
-                stats = f"C:{cpu:.0f}% R:{ram:.0f}% S:{swap:.0f}% N:{net_usage:.0f}%"
-                print(format_line(stats))
-            elif 2 <= r < 12:
-                story_idx = r - 2
+def generate_ascii_frame(frame_idx):
+    # Clock & heart
+    now = time.localtime()
+    clock = f"{now.tm_hour:02d}:{now.tm_min:02d}:{now.tm_sec:02d}"
+    pulse = (frame_idx % 10)/10
+    heart = hearts[0] if pulse < 0.5 else hearts[1]
+    
+    # Stats
+    cpu = psutil.cpu_percent()
+    ram = psutil.virtual_memory().percent
+    swap = psutil.swap_memory().percent
+    net = psutil.net_io_counters()
+    net_usage = min((net.bytes_sent+net.bytes_recv)/1024/50*100,100)
+    
+    lines = []
+    for r in range(lines_per_frame):
+        if r == 0:
+            lines.append(f"Clock: {clock} | Heart: {heart} | FPS: 0.0")
+        elif r == 1:
+            lines.append(f"C:{cpu:.0f}% R:{ram:.0f}% S:{swap:.0f}% N:{net_usage:.0f}%")
+        elif 2 <= r < 12:
+            story_idx = r-2
+            if story_idx < len(story_lines):
                 line = story_lines[story_idx]
-                total_len = len(line) + 80
-                # Left -> right scroll
-                offset = total_len - (frames % total_len)
-                display = (" " * 80 + line)[offset:offset+80]
-
-                # Tiny flicker effect
-                flicker = [c if random.random() > 0.05 else " " for c in display]
-                print(format_line("".join(flicker)))
+                # Endless scroll
+                scroll_len = len(line) + chars_per_line
+                offset = frame_idx % scroll_len
+                display = (" " * chars_per_line + line)[offset:offset+chars_per_line]
+                flicker = [c if random.random()>0.05 else " " for c in display]
+                lines.append("".join(flicker))
             else:
-                # Bottom lines: random flicker for full-screen effect
-                empty = "".join(" " if random.random() > 0.95 else "." for _ in range(80))
-                print(format_line(empty))
+                lines.append(" " * chars_per_line)
+        else:
+            # Bottom lines: flicker effect
+            empty = "".join(" " if random.random()>0.95 else "." for _ in range(chars_per_line))
+            lines.append(empty)
+    return "\n".join(lines)
 
-        frames += 1
-        time.sleep(frame_interval)
+# --- GENERATE FRAMES ---
+ascii_frames = [generate_ascii_frame(i) for i in range(num_frames)]
 
-except KeyboardInterrupt:
-    print("\033[0m")
-    print("Full-screen TV-style dashboard stopped.")
+# --- CONVERT TO IMAGES ---
+font = ImageFont.load_default()
+images = []
+for frame_text in ascii_frames:
+    img = Image.new('RGB', (frame_width_px, frame_height_px), color='black')
+    draw = ImageDraw.Draw(img)
+    y = 0
+    for line in frame_text.splitlines():
+        draw.text((0, y), line, font=font, fill='white')
+        y += font_size
+    images.append(img)
+
+# --- SAVE GIF ---
+images[0].save(
+    'ascii_dashboard.gif',
+    save_all=True,
+    append_images=images[1:],
+    duration=frame_duration_ms,
+    loop=0
+)
+
+print("ASCII dashboard GIF saved as ascii_dashboard.gif!")

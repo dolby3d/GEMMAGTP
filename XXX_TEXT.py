@@ -1,15 +1,21 @@
 ﻿
 
-git remote add origin https://github.com/dolby3d/GEMMAGTP.git
-
-git init && git add . && git commit -m "Initial commit" && git branch -M main && git remote add origin https://github.com/dolby3d/GEMMAGTP.git && git push -u origin main
-
-
-
 
 📌 Save a summary of what the script does (purpose, key libraries, features).
 📎 Save a link/reference (if you put the code in a GitHub repo or paste site).
 📝 Keep a short snippet (like a key function or critical section), if it’s reasonably small.
+
+
+load_script()load_script()load_script()load_script()load_script()load_script()load_script()
+load_script()load_script()load_script()load_script()load_script()load_script()load_script()
+load_script()load_script()load_script()load_script()load_script()load_script()load_script()
+
+
+print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),
+print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),
+print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),print_time(),
+
+
 
 `load_script()`
 
@@ -31,6 +37,10 @@ git init && git add . && git commit -m "Initial commit" && git branch -M main &&
 `build_bar()`, 
 
 
+mockup mockup mockup mockup mockup mockup mockup mockup mockup mockup 
+mockup mockup mockup mockup mockup mockup mockup mockup mockup mockup 
+mockup mockup mockup mockup mockup mockup mockup mockup mockup mockup 
+mockup mockup mockup mockup mockup mockup mockup mockup mockup mockup 
 mockup mockup mockup mockup mockup mockup mockup mockup mockup mockup 
 
 
