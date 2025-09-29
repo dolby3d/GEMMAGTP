@@ -1,16 +1,16 @@
-O View White Spaces  12:25:13
+O View White Spaces  12:26:15
 
-    o      oo              oo     oooo              o     ooo   
-   oo     o  o     oo     o  o    o        oo      oo        o  
-    o       o               o     ooo               o      oo   
-    o      oo              oo        o              o        o  
-    o     o        oo     o          o     oo       o        o  
-   ooo    oooo            oooo    ooo              ooo    ooo   
+    o      oo              oo      oo               o     oooo  
+   oo     o  o     oo     o  o    o        oo      oo     o     
+    o       o               o     ooo               o     ooo   
+    o      oo              oo     o  o              o        o  
+    o     o        oo     o       o  o     oo       o        o  
+   ooo    oooo            oooo     oo              ooo    ooo   
 
-CPU Usage:   2.3%
-RAM Usage:  48.0%
+CPU Usage:   3.0%
+RAM Usage:  46.9%
 Disk Usage:   8.3%
-Network: ↑    0.1KB ↓    0.1KB
+Network: ↑    0.1KB ↓    0.2KB
 FPS:    1.0
 Temp: N/A
 
