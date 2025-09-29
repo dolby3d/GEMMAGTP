@@ -1,21 +1,21 @@
-O View White Spaces  12:33:31
+O View White Spaces  12:34:33
 
-    o      oo             ooo     ooo             ooo       o   
-   oo     o  o     oo        o       o     oo        o     oo   
-    o       o              oo      oo              oo       o   
-    o      oo                o       o               o      o   
-    o     o        oo        o       o     oo        o      o   
-   ooo    oooo            ooo     ooo             ooo      ooo  
+    o      oo             ooo     o  o            ooo     ooo   
+   oo     o  o     oo        o    o  o     oo        o       o  
+    o       o              oo     oooo             oo      oo   
+    o      oo                o       o               o       o  
+    o     o        oo        o       o     oo        o       o  
+   ooo    oooo            ooo        o            ooo     ooo   
 
-CPU Usage:   9.8%
-RAM Usage:  47.1%
+CPU Usage:   4.4%
+RAM Usage:  47.3%
 Disk Usage:   8.3%
-Network: ↑    0.1KB ↓    0.1KB
-FPS:    1.0
+Network: ↑    0.1KB ↓    5.3KB
+FPS:    0.9
 Temp: N/A
 
 --- Binary Live Feed ---
-1000000000000000000000000000000000000000000000000000000000011111
+1000000000000000000000000000000000000000000000000000000000000001
 1000000000000000000000000000000000011111111111111111111111111111
 1000000000000000000000000000000000000000000000000000000000001111
 0000000000000000000000000000000000000000000000000000000000000000

@@ -1,11 +1,18 @@
 ﻿import os
 import time
 import psutil
+import subprocess
 
 # --- Configuration ---
 history_cols = 64
 history_rows = 7
 left_padding = "  "
+video_file = r"D:\VS\GEMMAGTP\ascii_video.txt"  # absolute path for ASCII frame
+refresh_interval = 1.0  # 1 second per frame
+push_interval = 60  # 60 seconds = 1 minute for git push
+
+# Ensure folder exists
+os.makedirs(os.path.dirname(video_file), exist_ok=True)
 
 # ANSI colors
 BRIGHT_BLUE = "\033[94m"
@@ -49,29 +56,23 @@ def update_binary_feed(width, values):
         feed.append("".join(line))
     return feed
 
-# --- Print binary feed with gradient ---
-def print_binary_feed(feed):
-    for line in feed:
-        output = ""
-        for i, char in enumerate(line):
-            pos_ratio = i / len(line)
-            if char == "1":
-                if pos_ratio > 0.66:
-                    output += BRIGHT_BLUE + "1" + RESET
-                elif pos_ratio > 0.33:
-                    output += BRIGHT_BLUE + "1" + RESET
-                else:
-                    output += DIM_BLUE + "1" + RESET
-            else:
-                output += "0"
-        print(output)
+# --- Git push ---
+def git_push():
+    try:
+        subprocess.run(["git", "add", "."], cwd=r"D:\VS\GEMMAGTP", check=True)
+        subprocess.run(["git", "commit", "-m", "Update ASCII frame"], cwd=r"D:\VS\GEMMAGTP", check=True)
+        subprocess.run(["git", "push", "origin", "main"], cwd=r"D:\VS\GEMMAGTP", check=True)
+        print("Git push completed.")
+    except subprocess.CalledProcessError as e:
+        print("Git push failed:", e)
 
 # --- Main loop ---
 def run_music_terminal():
     prev_net = (0,0)
     prev_time = time.time()
     binary_feed = ["0"*history_cols for _ in range(history_rows)]
-    
+    last_push_time = time.time()  # track last git push
+
     try:
         while True:
             now = time.strftime("%H:%M:%S")
@@ -106,25 +107,32 @@ def run_music_terminal():
             # Clear screen
             os.system('cls' if os.name=='nt' else 'clear')
 
-            # Song title
-            print(f"{CYAN}O View White Spaces{RESET}\n")
-
-            # Clock
+            # Build ASCII frame
+            ascii_output = [f"O View White Spaces  {now}\n"]
             for line in clock_rows:
-                print(f"{BRIGHT_BLUE}{line}{RESET}")
-            print()
+                ascii_output.append(line.replace("█","o"))
+            ascii_output.append("")
+            ascii_output.extend(metrics)
+            ascii_output.append("\n--- Binary Live Feed ---")
+            ascii_output.extend(binary_feed)
+            ascii_output.append("-"*history_cols + "\n")
 
-            # Metrics
-            for metric in metrics:
-                print(f"{GREEN}{metric}{RESET}")
+            # Print to terminal
+            for line in ascii_output:
+                print(line)
 
-            # Binary feed
-            print(f"\n{CYAN}--- Binary Live Feed ---{RESET}")
-            print_binary_feed(binary_feed)
-            print(f"{CYAN}{'-'*history_cols}{RESET}")
+            # Overwrite file with current frame only
+            with open(video_file, "w", encoding="utf-8") as f:
+                for line in ascii_output:
+                    f.write(line + "\n")
 
-            # Beat rhythm (0.5s per update)
-            time.sleep(0.5)
+            # Git push every push_interval seconds
+            if time.time() - last_push_time >= push_interval:
+                git_push()
+                last_push_time = time.time()
+
+            # Wait for next frame
+            time.sleep(refresh_interval)
 
     except KeyboardInterrupt:
         print("\nMusic stopped.")
