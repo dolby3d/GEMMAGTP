@@ -110,7 +110,7 @@ def run_music_terminal():
             # Build ASCII frame
             ascii_output = [f"O View White Spaces  {now}\n"]
             for line in clock_rows:
-                ascii_output.append(line.replace("█","o"))
+                ascii_output.append(line.replace("█","0"))
             ascii_output.append("")
             ascii_output.extend(metrics)
             ascii_output.append("\n--- Binary Live Feed ---")
