@@ -1,5 +1,17 @@
 ﻿
 
+Git Bash
+git add . && git commit -m "Update files" && git push origin main
+
+
+Windows CMD
+git add . && git commit -m "Update files" && git push origin main
+
+
+PowerShell
+git add .; git commit -m "Update files"; git push origin main
+
+
 
 📌 Save a summary of what the script does (purpose, key libraries, features).
 📎 Save a link/reference (if you put the code in a GitHub repo or paste site).
