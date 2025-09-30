@@ -1,14 +1,14 @@
-﻿What this does:
+﻿#What this does:
 
-Creates gemma_dashboard/ folder in your script’s location.
-Saves a permanent copy of the script there (gemma_monitor.py).
-Logs key actions (i, i1, h, q) to gemma_log.txt in the same folder.
-Keeps your original run_monitoring() intact and fully functional.
-You now have:
-RAM: for live execution.
-Disk: for permanent script copy and logs.
-Organized folder: everything stored in one place.
-If you want, I can also make the script automatically reload itself from the folder if you press s, so you never lose it even if you move or delete the running file.
+#Creates gemma_dashboard/ folder in your script’s location.
+#Saves a permanent copy of the script there (gemma_monitor.py).
+#Logs key actions (i, i1, h, q) to gemma_log.txt in the same folder.
+#Keeps your original run_monitoring() intact and fully functional.
+#You now have:
+#RAM: for live execution.
+#Disk: for permanent script copy and logs.
+#Organized folder: everything stored in one place.
+#If you want, I can also make the script automatically reload itself from the folder if you press s, so you never lose it even if you move or delete the running file.
 
 
 import os
